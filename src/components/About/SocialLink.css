@@ -1,0 +1,29 @@
+:root{
+  --pri-color:#00A9FF;
+  --sec-color:#124878;
+  --trd-color:#A0E9FF;
+  --fth-color:#CDF5FD;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2rem;
+  transition: all 0.3s;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 1px solid #ddd;
+  text-decoration: none;
+  color: #3498db;;
+}
+
+.social-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.social-icon {
+  font-size: 1.5rem;
+}

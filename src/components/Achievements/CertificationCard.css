@@ -1,0 +1,40 @@
+:root{
+  --pri-color:#00A9FF;
+  --sec-color:#89CFF3;
+  --t-color:#A0E9FF;
+  --f-color:#CDF5FD;
+}
+.certification-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-decoration: none;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border: 1px solid #ddd;
+  
+}
+
+.certification-card:hover {
+  transform: translateY(-5px);
+}
+
+.cert-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain; /* Ensures the entire image is visible */
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  background-color: #f8f9fa; /* Optional: Add a background color if the image has transparent areas */
+}
+
+
+.cert-name {
+  color: #000000;
+  text-align: center;
+  font-size: 1.1rem;
+}

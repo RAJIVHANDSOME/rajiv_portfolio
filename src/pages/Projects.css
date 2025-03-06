@@ -1,0 +1,23 @@
+:root{
+  --pri-color:#00A9FF;
+  --sec-color:#124878;
+  --t-color:#A0E9FF;
+  --f-color:#CDF5FD;
+}
+.projects-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}

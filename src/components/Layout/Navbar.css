@@ -1,0 +1,21 @@
+:root{
+  --pri-color:#00A9FF;
+  --sec-color:#89CFF3;
+  --t-color:#A0E9FF;
+  --f-color:#CDF5FD;
+}
+.navbar-container {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+
+}
+.glass-effect {
+  background: rgba(255, 255, 255, 0.66);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
