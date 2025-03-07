@@ -3,7 +3,9 @@
 import React from 'react'; 
 import { Menubar } from 'primereact/menubar';
 import './Navbar.css';
-import logo from './logog.png';
+import logo from './1.png';
+// import logo from './22.png';
+
 import { useNavigate } from 'react-router-dom';
 export default function Navbar() {
     const navigate=useNavigate();

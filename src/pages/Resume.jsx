@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import './Resume.css';
-// import pdf from "./Ch.Srisai_RESUME.pdf";
-import pdf from './rajivs_resume.pdf';
+import pdf from './RajivRatna_Resume.pdf';
 import { Worker, Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
@@ -21,23 +20,13 @@ const Resume = () => {
     <div className="resume-container">
       <div className="resume-header">
         <h2>My Resume</h2>
-        <a href="./Ch.Srisai_RESUME.pdf" download className="download-button">
+        <a href={pdf} target="_blank" className="download-button">
           Download PDF
         </a>
       </div>
       
       <div className="pdf-container">
-        {/* <Document
-          file="./Ch.Srisai_RESUME.pdf"
-          onLoadSuccess={onDocumentLoadSuccess}
-          className="pdf-document"
-        >
-          <Page
-            pageNumber={pageNumber}
-            className="pdf-page"
-            renderTextLayer={false}
-          />
-        </Document> */}
+       
         <Worker workerUrl={`https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js`}>
           <Viewer fileUrl={pdf} className="pdf-viewer" />
         </Worker>

@@ -24,10 +24,10 @@ const Hero = () => {
     };
   }, []);
   const socialLinks = [
-    { icon: FaGithub, name: 'GitHub', url: 'https://github.com/RAJIVHANDSOME' },
-    { icon: FaLinkedin, name: 'LinkedIn', url: 'https://www.linkedin.com/in/kokkiligadda-rajiv-ratna-79b592239/' },
-    { icon: FaInstagram, name: 'Instagram', url: 'https://www.instagram.com/rajivratna_18/?__pwa=1' },
-    { icon: FaMailBulk, name: 'Mail', url: '2100032455cseh@gmail.com' },
+    { icon: FaGithub, name: 'GitHub', url: 'https://github.com/RAJIVHANDSOME' ,cc:"rgb(0, 0, 0)"},
+    { icon: FaLinkedin, name: 'LinkedIn', url: 'https://www.linkedin.com/in/kokkiligadda-rajiv-ratna-79b592239/',cc:"rgb(0, 114, 177)" },
+    { icon: FaInstagram, name: 'Instagram', url: 'https://www.instagram.com/rajivratna_18/?__pwa=1' ,cc:"rgb(254, 29, 168)"},
+    { icon: FaMailBulk, name: 'Mail', url: '2100032455cseh@gmail.com' ,cc:"rgb(0, 64, 100)"},
   ];
   return (
     <div className="hero">
@@ -56,15 +56,15 @@ const Hero = () => {
               architecture to build scalable solutions.
             </p>
             <div className="socialcont" >
-              {socialLinks.map(({ icon: Icon, name, url }, index) => (
+              {socialLinks.map(({ icon: Icon, name, url ,cc}, index) => (
                 
                   name === "Mail" ? (
                   <a href={`mailto:${url}`}>
-                    <Icon className="sicon" key={index} />
+                    <Icon className="sicon" key={index} style={{color:`${cc}`}}/>
                   </a>
                 ) : (
                   <Link to={url} target="_blank" rel="noopener noreferrer">
-                    <Icon className="sicon" key={index} />
+                    <Icon className="sicon" key={index} style={{color:`${cc}`}}/>
                   </Link>
                 )
 

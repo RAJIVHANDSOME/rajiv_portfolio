@@ -7,15 +7,15 @@ import './About.css';
 
 const About = () => {
   const skills = [
-    { icon: FaHtml5, name: 'Html5' },
-    { icon: FaCss3, name: 'Css3' },
-    { icon: FaJs, name: 'JS' },
-    { icon: FaJava, name: 'Java' },
-    { icon: FaReact, name: 'React' },
-    { icon: FaNodeJs, name: 'Node.js' },
-    { icon: SiMysql, name: 'Mysql' },
-    { icon: SiMongodb, name: 'Mongodb' },
-    { icon: SiSpringboot, name: 'Springboot' },
+    { icon: FaHtml5, name: 'Html5',cc:"rgb(255, 112, 112)" },
+    { icon: FaCss3, name: 'Css3',cc:"rgb(98, 142, 255)" },
+    { icon: FaJs, name: 'JS',cc:"rgb(238, 242, 29)" },
+    { icon: FaJava, name: 'Java' ,cc:"rgb(255, 102, 0)"},
+    { icon: FaReact, name: 'React' ,cc:"rgb(112, 198, 255)"},
+    { icon: FaNodeJs, name: 'Node.js',cc:"rgb(112, 255, 143)" },
+    { icon: SiMysql, name: 'Mysql',cc:"rgb(255, 175, 0)" },
+    { icon: SiMongodb, name: 'Mongodb' ,cc:"rgb(44, 101, 34)"},
+    { icon: SiSpringboot, name: 'Springboot',cc:"rgb(77, 177, 59)" },
    
   ];
 

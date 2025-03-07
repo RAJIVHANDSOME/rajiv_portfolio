@@ -29,6 +29,11 @@ const Achievements = () => {
       name: "Leetcode2024",
       url: 'https://leetcode.com/u/2100032455/',
     },
+    {
+      image: "https://images.credly.com/size/680x680/images/87eec792-3c63-4526-aafb-da866a30fa54/image.png",
+      name: "Multicloud Network Associate",
+      url: 'https://www.credly.com/badges/3c39bcd7-1a1c-4868-b9b0-f3faf68d2655/public_url',
+    },
     // Add more certifications as needed
   ];
 

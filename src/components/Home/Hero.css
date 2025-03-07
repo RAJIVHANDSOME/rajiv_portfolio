@@ -80,7 +80,7 @@
 .sicon {
   padding: 5px;
   font-size: 2.8rem;
-  color: var(--pri-color);
+  /* color: var(--pri-color); */
   border: none;
   transition: box-shadow 0.3s;
 }
