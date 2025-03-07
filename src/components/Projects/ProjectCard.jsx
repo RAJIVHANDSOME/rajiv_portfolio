@@ -1,9 +1,14 @@
 import './ProjectCard.css';
-
-const ProjectCard = ({ image, name, description, tags, githubUrl }) => {
+// import p1 from '../../assets/jewelmatch.gif'
+import jewelmatch from './jewelmatch.gif';
+import agro from './agriinsght.gif';
+const arr=[agro,jewelmatch,"https://saibhagavan.netlify.app/img/ezgif.com-animated-gif-maker.gif"];
+const ProjectCard = ({ id,image, name, description, tags, githubUrl }) => {
   return (
     <div className="project-card">
-      <img src={image} alt={name} className="project-image" />
+    
+      <img src={arr[id]} alt={name} className="project-image" />)
+    
       <div className="project-content">
         <h3 className="project-name">{name}</h3>
         <p className="project-description">{description}</p>

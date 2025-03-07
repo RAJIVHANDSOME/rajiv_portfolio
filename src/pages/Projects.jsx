@@ -1,27 +1,31 @@
 import ProjectCard from '../components/Projects/ProjectCard';
 import './Projects.css';
-
+// import jewelmatch from './jewelmatch.gif';
+// import agro from './agriinsght.gif';
 const Projects = () => {
   const projects = [
     {
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59zt3iLQrjDbIm0sqrrJB_OtqlIvkhA_ZAw&s',
-      name: 'Travel Tourism and Hospitality',
-      description: 'Developed a user-friendly travel and tourism system that streamlined booking management. Designed and implemented a robust backend using Spring Boot, ensuring seamless integration with MySQL for efficient data storage and retrieval.',
-      tags: ['Spring Boot', 'MySQL', 'Html','Css'],
+      id:0,
+      image: './jewelmatch.gif',
+      name: 'AgriInsight',
+      description: 'Soil Report & Farming Data Management System that allows volunteers to collect data, experts to analyze soil reports, and admins to manage user access. It includes real-time data visualization, role-based access, and automatic translation based on location.',
+      tags: ['ReactJS', 'NodeJS', 'MongoDB','Css'],
       githubUrl: 'https://github.com/yourusername/project1',
     },
     {
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59zt3iLQrjDbIm0sqrrJB_OtqlIvkhA_ZAw&s',
-      name: 'Health and Life Insurance Management System',
-      description: 'Developed a comprehensive Health and Life Insurance Management System using Django for the full stack and MongoDB for efficient data handling.Streamlined the management of insurance policies, client information, and claims processing.',
-      tags: ['Django', 'MongoDB', 'Html','Css'],
+      id:1,
+      image: "{agro}",
+      name: 'JewelMatch',
+      description: 'Developed a jewellery searching app using Google Teachable Machine, allowing users to upload images and find similar products. The app leverages machine learning to recognize patterns and suggest matching jewellery items efficiently',
+      tags: ['ReactJS', 'NodeJS', 'MongoDB','Css','GTM'],
       githubUrl: 'https://github.com/yourusername/project2',
     },
     {
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59zt3iLQrjDbIm0sqrrJB_OtqlIvkhA_ZAw&s',
-      name: 'Task Management System',
-      description: 'A collaborative task management system with real-time updates. Features include task creation, assignment, progress tracking, and team collaboration tools. Implemented drag-and-drop functionality and email notifications for task updates.',
-      tags: ['React', 'Firebase', 'Material-UI', 'Node.js', 'SendGrid'],
+      id:2,
+      image: 'https://saibhagavan.netlify.app/img/ezgif.com-animated-gif-maker.gif',
+      name: 'DealsBlendr',
+      description: 'This DealsBlendr application is built using ReactJs and Spring framework. It is useful for users who are searching for better prices of electronic devices.',
+      tags: ["Java","SpringBoot","Hibernate","ReactJS","MongoDB"],
       githubUrl: 'https://github.com/yourusername/project3',
     }
   ];
