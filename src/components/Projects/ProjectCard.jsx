@@ -2,7 +2,8 @@ import './ProjectCard.css';
 // import p1 from '../../assets/jewelmatch.gif'
 import jewelmatch from './jewelmatch.gif';
 import agro from './agriinsght.gif';
-const arr=[agro,jewelmatch,"https://saibhagavan.netlify.app/img/ezgif.com-animated-gif-maker.gif"];
+import stock from './stock.gif'
+const arr=[agro,jewelmatch,"https://saibhagavan.netlify.app/img/ezgif.com-animated-gif-maker.gif",stock];
 const ProjectCard = ({ id,image, name, description, tags, githubUrl }) => {
   return (
     <div className="project-card">
