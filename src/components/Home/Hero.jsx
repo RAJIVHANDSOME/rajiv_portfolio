@@ -9,9 +9,14 @@ import profileimg from '../../assets/2.png'
 import { Link } from 'react-router-dom';
 const Hero = () => {
   const typedElement = useRef(null);
+  const colors = ["rgb(0, 114, 177)", "rgb(254, 29, 168)", "rgb(0, 0, 0)"]; // Colors for each string
   useEffect(() => {
     // Initialize the Typed.js instance
     const typed = new Typed(typedElement.current, {
+      onStringTyped: (index) => {
+        // Change the color of the text after typing each string
+        typedElement.current.style.color = colors[index];
+      },
       strings: ["Web Developer", "Software Engineer", "Fresher"],
       typeSpeed: 50,
       backSpeed: 30,
@@ -45,7 +50,7 @@ const Hero = () => {
               style={{
                 fontSize: "1.5rem",
                 fontWeight: "lighter",
-                color: "#00A9FF",
+                // color: "rgb(254, 29, 168)",
               }}
             />
 
