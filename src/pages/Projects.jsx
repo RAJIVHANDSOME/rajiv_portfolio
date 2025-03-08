@@ -10,7 +10,7 @@ const Projects = () => {
       name: 'AgriInsight',
       description: 'Soil Report & Farming Data Management System that allows volunteers to collect data, experts to analyze soil reports, and admins to manage user access. It includes real-time data visualization, role-based access, and automatic translation based on location.',
       tags: ['ReactJS', 'NodeJS', 'MongoDB','Css'],
-      githubUrl: 'https://github.com/RAJIVHANDSOME/agriinsight',
+      githubUrl: 'https://github.com/RAJIVHANDSOME/AgriFE',
     },
     {
       id:1,
